@@ -570,7 +570,8 @@ server:
   # Example:
   # nodeSelector:
   #   beta.kubernetes.io/arch: amd64
-  nodeSelector: {}
+  nodeSelector:
+    deploynode: rmq
 
   # Enables network policy for server pods
   networkPolicy:
