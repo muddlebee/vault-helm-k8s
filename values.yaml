@@ -266,7 +266,10 @@ injector:
   # Example:
   # nodeSelector:
   #   beta.kubernetes.io/arch: amd64
-  nodeSelector: {}
+  # nodeSelector: {}
+  nodeSelector:
+        deploynode: rmq
+
 
   # Priority class for injector pods
   priorityClassName: ""
